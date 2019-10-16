@@ -21,7 +21,6 @@
 ## App Links
 
 - [Eleventy Material Kit Pro](https://eleventy-html5up-txt.appseed.us) - Live DEMO
-- [Eleventy Material Kit Pro](https://appseed.us/static-site/eleventy-html5up-txt) - Product Info
 
 <br />
 
