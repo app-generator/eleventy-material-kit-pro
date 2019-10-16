@@ -14,7 +14,7 @@
 
 <br />
 
-![Eleventy Material Kit Pro - Gif animated intro.](https://github.com/app-generator/static/blob/master/products/eleventy-material-kit-pro-intro.gif?raw=true)
+![Eleventy Material Kit Pro - Gif animated intro.](https://raw.githubusercontent.com/app-generator/static/master/products/eleventy-material-kit-pro-intro.gif)
 
 <br />
 
