@@ -1,4 +1,4 @@
-# [Eleventy Material Kit Pro](https://eleventy-material-kit-pro.appseed.us/)
+# [Eleventy Material Kit Pro](https://appseed.us/static-site/eleventy-material-kit-pro)
 
 **Static Site** prototyped on top of [Eleventy](https://www.11ty.io/) SSG and **Material Kit Pro Design** - [Live DEMO](https://eleventy-material-kit-pro.appseed.us) 
 
@@ -21,8 +21,9 @@
 ## App Links
 
 - [Eleventy Material Kit Pro](https://eleventy-html5up-txt.appseed.us) - Live DEMO
+- [Eleventy Material Kit Pro](https://appseed.us/static-site/eleventy-material-kit-pro) - Product Page
 
 <br />
 
 ---
-[Eleventy Material Kit Pro](https://eleventy-material-kit-pro.appseed.us/) - provided by **AppSeed**
+[Eleventy Material Kit Pro](https://appseed.us/static-site/eleventy-material-kit-pro) - provided by **AppSeed**
