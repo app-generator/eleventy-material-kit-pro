@@ -20,7 +20,7 @@
 
 ## App Links
 
-- [Eleventy Material Kit Pro](https://eleventy-html5up-txt.appseed.us) - Live DEMO
+- [Eleventy Material Kit Pro](https://eleventy-material-kit-pro.appseed.us) - Live DEMO
 - [Eleventy Material Kit Pro](https://appseed.us/static-site/eleventy-material-kit-pro) - Product Page
 
 <br />
