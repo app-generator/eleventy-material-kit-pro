@@ -1,5 +1,8 @@
 # Change Log
 
+## [Unreleased]
+- Patch #3 - Wrong value for sourceMappingURL in `material-kit.css` 
+
 ## [1.0.2] 2020-05-26
 ### Improvements
 - Update the UI Kit to latest version - v2.2.0
