@@ -11,7 +11,7 @@
 - [PostCSS](https://postcss.org/)
 - [CSSnano](https://cssnano.co/)
 - [Autoprefixer](https://github.com/postcss/autoprefixer)
-- **Commercial License**
+- **Commercial License**: [Personal](https://github.com/app-generator/license-personal) / [Developer](https://github.com/app-generator/license-developer)
 - 24/7 Live Support via [Discord](https://discord.gg/fZC6hup).
 
 > Links
