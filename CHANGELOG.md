@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.1] 2021-02-21
+### Improvements
+
+- Remove Google MAPS Key warning 
+- Added `google_maps_key` variable in `app.json`
+- Patch a JS error in `signup-page.njk`
+- README - added link to UI Docs 
+
 ## [1.0.0] 2021-02-21
 ### Initial Import
 

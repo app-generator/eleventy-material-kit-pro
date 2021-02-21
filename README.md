@@ -23,8 +23,9 @@
 
 > Links
 
-- [Eleventy Material Kit PRO](https://appseed.us/product/eleventy-soft-ui-pro) - Product page
+- [Eleventy Material Kit PRO](https://appseed.us/static-site/eleventy-material-kit-pro) - Product page
 - [Eleventy Material Kit PRO Demo](https://eleventy-material-kit-pro.appseed-srv1.com/) - LIVE Demo
+- UI Docs: [Material Kit PRO](https://demos.creative-tim.com/material-kit-pro/docs/2.1/getting-started/introduction.html)
 
 <br />
 
