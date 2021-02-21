@@ -14,13 +14,6 @@
 
 <br />
 
-**Codebase Credits**
-
-- Initially forked from [Eleventastic](http://github.com/maxboeck/eleventastic) / [Max Böck](https://github.com/maxboeck)
-- More **11ty** inspiration from: [EleventyOne](https://github.com/philhawksworth/eleventyone), [Supermaya](https://github.com/MadeByMike/supermaya) 
-
-<br />
-
 > Links
 
 - [Eleventy Material Kit PRO](https://appseed.us/static-site/eleventy-material-kit-pro) - Product page
@@ -111,6 +104,13 @@ For example, if you have a `github.svg` file in that folder, you can display it 
 ## Critical CSS
 
 Currently, critical CSS will only be inlined in the head of the homepage. This is done by using the [critical](https://github.com/addyosmani/critical) package in an automatic transform.
+
+<br />
+
+**Codebase Credits**
+
+- Initially forked from [Eleventastic](http://github.com/maxboeck/eleventastic) / [Max Böck](https://github.com/maxboeck)
+- More **11ty** inspiration from: [EleventyOne](https://github.com/philhawksworth/eleventyone), [Supermaya](https://github.com/MadeByMike/supermaya) 
 
 <br />
 
