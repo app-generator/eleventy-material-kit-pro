@@ -1,106 +1,119 @@
 # [Eleventy Material Kit PRO](https://appseed.us/static-site/eleventy-material-kit-pro)
 
-> Commercial product - [Eleventy](https://www.11ty.io/) SSG starter with **Material Kit PRO Design** - Features:
+> Eleventy (11ty) seed project - Features:
 
-- UI Kit: **Material Kit PRO** provided by **Creative-Tim**
-- SSG [11ty](https://www.11ty.io/)
-- [Sass/SCSS](https://github.com/sass/node-sass)
-- [Webpack](https://webpack.js.org/)
-- [Babel](https://babeljs.io/)
-- [light-server](https://github.com/txchen/light-server)
-- [PostCSS](https://postcss.org/)
-- [CSSnano](https://cssnano.co/)
-- [Autoprefixer](https://github.com/postcss/autoprefixer)
-- **Commercial License**: [Personal](https://github.com/app-generator/license-personal) / [Developer](https://github.com/app-generator/license-developer)
-- 24/7 Live Support via [Discord](https://discord.gg/fZC6hup).
+<br />
+
+- UI Kit: **[Material Kit PRO](http://bit.ly/3buK2ZH)** (Premium Version) by **Creative-Tim**
+- Render Engine: Nunjunks / Markdown (for blog posts)
+- CSS Pipeline (Sass, CleanCSS)
+- JS Bundling (Webpack)
+- SVG Icon Sprite Generation
+- Critical CSS, HTML Minification
+- Support via **Github** and [Discord](https://discord.gg/fZC6hup).
+
+<br />
+
+**Codebase Credits**
+
+- Initially forked from [Eleventastic](http://github.com/maxboeck/eleventastic) / [Max Böck](https://github.com/maxboeck)
+- More **11ty** inspiration from: [EleventyOne](https://github.com/philhawksworth/eleventyone), [Supermaya](https://github.com/MadeByMike/supermaya) 
+
+<br />
 
 > Links
 
-- [Eleventy Material Kit PRO](https://eleventy-material-kit-pro.appseed.us/) - LIVE Demo
-- [Eleventy Material Kit PRO](https://appseed.us/static-site/eleventy-material-kit-pro) - Official product page
-- [Material Kit PRO](https://demos.creative-tim.com/marketplace/material-kit-pro/docs/2.0/getting-started/introduction.html) - Official UI Docs
+- [Eleventy Material Kit PRO](https://appseed.us/product/eleventy-soft-ui-pro) - Product page
+- [Eleventy Material Kit PRO Demo](https://eleventy-material-kit-pro.appseed-srv1.com/) - LIVE Demo
 
 <br />
 
-![Eleventy Material Kit PRO - Eleventy SSH starter with Material PRO Design.](https://raw.githubusercontent.com/app-generator/eleventy-material-kit-pro/master/media/eleventy-material-kit-pro-screen.png)
+![Material Kit PRO - Template project provided by AppSeed in Eleventy (11ty).](https://raw.githubusercontent.com/app-generator/eleventy-material-kit-pro/master/media/eleventy-material-kit-pro-screen.png)
 
 <br />
 
-## Project Structure
+## Build from sources
 
-The boilerplate code is built with a modular structure that follows the recommended pattern used by many open-source projects. The most important files and  directories are shown below:
+```bash
+$ # Clone the sources
+$ git clone https://github.com/app-generator/priv-eleventy-material-kit-pro.git
+$ cd priv-eleventy-material-kit-pro
+$
+$ # Install modules
+$ npm install # OR `yarn`
+$
+$ # Start for development
+$ npm start # OR `yarn start`
+$
+$ # Access the project in browser:
+$ # http://127.0.0.1:8080/ 
+$
+$ # Production Build
+$ npm build # OR `yarn build`
+```
 
 <br />
+
+## Codebase structure
+
+The project has a simple structure, represented as bellow:
 
 ```bash
 < PROJECT ROOT >
    |
-   |-- src/                              # App Sources
+   |-- src/
+   |    |-- data/
+   |    |    |-- meta.json            # Provides META information 
+   |    |    |-- app.json             # Provides APP information
    |    |
-   |    |-- assets/                      # Static assets folder
-   |    |    |-- <css, JS, images>       # CSS files, Javascripts files
+   |    |-- includes/                 # Page chunks, components
+   |    |    |-- navigation.njk       # Top bar
+   |    |    |-- sidebar.njk          # Left sidebar
+   |    |    |-- scripts.njk          # JS scripts common to all pages
+   |    |    |-- footer.njk           # The common footer
    |    |
-   |    |-- _data_/
-   |    |     |-- data.json              # Store global variables
-   |    |
-   |    |-- _includes/
-   |          |-- layouts/               # The master-pages directory
-   |               |
-   |               |-- base.njk          # Master layout used by common pages
-   |               |-- base-auth.njk     # Master layout used by authentication pages
-   |               |-- base-contact.njk  # Master layout used by contact form
-   |               |
-   |           footer.njk                # Footer component
-   |           header.njk                # Header component
-   |           navigation.njk            # Top Menu
-   |           scripts.njk               # Common JS scripts
+   |    |-- layouts/                  # App Layouts (the master pages)
+   |    |    |-- base.njk             # Used by common pages like index, UI
+   |    |    |-- base-fullscreen.njk  # Used by auth pages (login, register)
+   |    |   
+   |    |-- index.njk                 # The default page
+   |    |-- *.njk                     # All other pages provided by the UI Kit
    |
-   |-- .eleventy.js                      # Used to configure 11ty
-   |-- package.json                      # Node script manager
-   |-- deploy.js                         # FTP upload script
+   |-- utils/                         # JS Helpers
+   |
+   |-- .eleventy.js                   # 11ty Config
+   |-- netlify.toml                   # Netlify deployer
    |
    |-- ************************************************************************
 ```
 
 <br />
 
-## How to use it
+## Deploy a fork of this template to Netlify
 
-- Build from sources:
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/app-generator/priv-eleventy-material-kit-pro)
 
-```bash
-$ # Get the code
-$ git clone https://github.com/app-generator/priv-eleventy-material-kit-pro.git
-$ cd priv-eleventy-material-kit-pro
-$ 
-$ # Install modules
-$ yarn
-$ 
-$ # Start in development mode
-$ yarn start
-$ 
-$ # app is running on http://localhost:4000
-$ 
-$ # Production build
-$ yarn build
-```
+## CSS
 
-> Please visit the static site in your preferred browser. For production build type `yarn build`:
+Styling works with Sass. The main index file is in `src/static/assets/styles/main.scss`. Import any SCSS code you want in there; it will be processed and optimized. The output is in `dist/static/assets/styles/main.css`
 
-```bash
-$ # Production build
-$ yarn build # the static site is generated in dist/ folder
-$ 
-$ # Visualize the HTML files using PHP:
-$ cd dist
-$ php -S localhost:4000
-```
+## JS
 
-> Please visit `localhost:4000` in the browser to visualize the production build.
+Javascript can be written in ES6 syntax. The main index file is in `src/static/assets/scripts/main.js`. It will be transpiled to ES5 with babel, bundled together with webpack, and minified in production. The output is in `dist/static/assets/scripts/main.js`
+
+## SVG Icons
+
+All SVG files added to `src/static/assets/icons` will be bundled into a `symbol` sprite file. The SVG filename will then be used as the symbol identifier and the icon can be used as a shortcode.
+
+For example, if you have a `github.svg` file in that folder, you can display it anywhere by using `{% icon "github" %}` in your templates.
+
+## Critical CSS
+
+Currently, critical CSS will only be inlined in the head of the homepage. This is done by using the [critical](https://github.com/addyosmani/critical) package in an automatic transform.
 
 <br />
 
-## What is [Eleventy](https://www.11ty.dev/)
+## [What is Eleventy](https://docs.appseed.us/what-is/eleventy/)
 
 Eleventy (11ty) is a simpler SSG created to be a JavaScript alternative to Jekyll. It’s zero-config by default but has flexible configuration options. Eleventy works with your project’s existing directory structure.
 
@@ -110,7 +123,7 @@ Eleventy works with multiple template languages. You can pick one or use them al
 
 <br />
 
-## [Material Kit PRO](https://www.creative-tim.com/product/material-kit-pro/?ref=appseed)
+## [Material Kit PRO](http://bit.ly/3buK2ZH)
 
 Material Kit PRO, a UI KIT inspired by Google's Material Design, features over 1000 individual components, giving you the freedom of choosing and combining. This means that there are thousands of possible combinations. All components can take variations in colour that you can easily modify using SASS files.
 
@@ -119,4 +132,4 @@ Material Kit comes packed with a large number of sections. Putting together a pa
 <br />
 
 ---
-[Eleventy Material Kit Pro](https://appseed.us/static-site/eleventy-material-kit-pro) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Eleventy Material Kit PRO](https://appseed.us/static-site/eleventy-material-kit-pro) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).

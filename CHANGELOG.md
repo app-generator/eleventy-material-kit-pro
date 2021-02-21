@@ -1,17 +1,7 @@
 # Change Log
 
-## [Unreleased]
-- Patch #3 - Wrong value for sourceMappingURL in `material-kit.css` 
+## [1.0.0] 2021-02-21
+### Initial Import
 
-## [1.0.2] 2020-05-26
-### Improvements
-- Update the UI Kit to latest version - v2.2.0
-- Add a CHANGELOG file to the project
-
-## [1.0.1] 2020-05-11
-### Bug fixing, Improvements
-- Patch the build on MacOS 
-- Add build information
-
-## [1.0.0] 2019-10-01
-### Initial Release
+- UI: [Material Kit PRO](http://bit.ly/3buK2ZH) v2.2.0
+- Codebase: [Eveventy Starter](https://github.com/app-generator/boilerplate-code-11ty) v0.0.2
